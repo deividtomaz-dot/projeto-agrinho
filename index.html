@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1b4332;
+            color: white;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: #52b788;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=2070') no-repeat center center/cover;
+            height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: #52b788;
+            color: #1b4332;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #40916c;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .content-section {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            color: #1b4332;
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+
+        .grid-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            text-align: center;
+            border-top: 5px solid #2d6a4f;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #1b4332;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        footer {
+            background-color: #1b4332;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">AgroForte 🌱</div>
+    </header>
+
+    <section class="hero">
+        <h1>O Futuro do Agro é Sustentável</h1>
+        <p>Unindo a força do campo com a tecnologia do amanhã para alimentar o mundo preservando o nosso planeta.</p>
+        <a href="#sobre" class="btn">Conheça Nossos Pilares</a>
+    </section>
+
+    <section id="sobre" class="content-section">
+        <h2 class="section-title">Nossos Pilares</h2>
+        <div class="grid-cards">
+            <div class="card">
+                <h3>Preservação Ambiental</h3>
+                <p>Técnicas de manejo que protegem o solo, economizam água e mantêm a biodiversidade local viva.</p>
+            </div>
+            <div class="card">
+                <h3>Produtividade Inteligente</h3>
+                <p>Uso inteligente de dados e recursos para produzir mais alimentos utilizando menos espaço e insumos.</p>
+            </div>
+            <div class="card">
+                <h3>Impacto Social</h3>
+                <p>Valorização e suporte ao produtor rural, garantindo o desenvolvimento econômico de comunidades locais.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 AgroForte Sustentável. Desenvolvido para um futuro melhor.</p>
+    </footer>
+
+</body>
+</html>
